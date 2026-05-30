@@ -12,7 +12,7 @@ const VisualHighlight = () => {
   const opacity = useTransform(scrollYProgress, [0, 0.3, 0.7, 1], [0, 1, 1, 0]);
 
   return (
-    <section ref={ref} className="relative h-screen overflow-hidden bg-stone-900">
+    <section ref={ref} id="craftsmanship" className="relative h-screen overflow-hidden bg-stone-900">
       <motion.div
         style={{ y, opacity }}
         className="absolute inset-0"

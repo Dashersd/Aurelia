@@ -17,7 +17,7 @@ const FeaturedJewelry = () => {
   ];
 
   return (
-    <section ref={ref} className="py-24 px-6 max-w-7xl mx-auto relative overflow-hidden">
+    <section ref={ref} id="collections" className="py-24 px-6 max-w-7xl mx-auto relative overflow-hidden">
       {/* Animated background accent */}
       <motion.div
         className="absolute top-0 right-0 w-96 h-96 bg-amber-100 rounded-full blur-xl opacity-20"

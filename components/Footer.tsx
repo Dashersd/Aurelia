@@ -14,10 +14,10 @@ const Footer = () => {
 
         <div className="flex flex-col md:flex-row justify-between items-center gap-8 mb-12">
           <nav className="flex gap-8 text-stone-400">
-            <a href="#" className="hover:text-amber-500 transition-colors font-light">Collections</a>
-            <a href="#" className="hover:text-amber-500 transition-colors font-light">About</a>
-            <a href="#" className="hover:text-amber-500 transition-colors font-light">Craftsmanship</a>
-            <a href="#" className="hover:text-amber-500 transition-colors font-light">Contact</a>
+            <a href="#collections" className="hover:text-amber-500 transition-colors font-light">Collections</a>
+            <a href="#about" className="hover:text-amber-500 transition-colors font-light">About</a>
+            <a href="#craftsmanship" className="hover:text-amber-500 transition-colors font-light">Craftsmanship</a>
+            <a href="#contact" className="hover:text-amber-500 transition-colors font-light">Contact</a>
           </nav>
 
           <div className="flex gap-6">

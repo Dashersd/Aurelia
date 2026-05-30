@@ -7,7 +7,7 @@ const AboutAurelia = () => {
   const isInView = useInView(ref, { once: true, margin: '-100px' });
 
   return (
-    <section ref={ref} className="py-24 px-6 bg-stone-900 text-amber-50">
+    <section ref={ref} id="about" className="py-24 px-6 bg-stone-900 text-amber-50">
       <div className="max-w-4xl mx-auto text-center">
         <motion.div
           initial={{ opacity: 0, y: 50 }}

@@ -6,7 +6,7 @@ const CallToAction = () => {
   const isInView = useInView(ref, { once: true });
 
   return (
-    <section ref={ref} className="py-32 px-6 bg-gradient-to-br from-amber-50 via-stone-50 to-amber-50 relative overflow-hidden">
+    <section ref={ref} id="contact" className="py-32 px-6 bg-gradient-to-br from-amber-50 via-stone-50 to-amber-50 relative overflow-hidden">
       <motion.div
         className="absolute inset-0 opacity-5"
         animate={{

@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import LoadingScreen from '../components/LoadingScreen';
+import Header from '../components/Header';
 import Hero from '../components/Hero';
 import FeaturedJewelry from '../components/FeaturedJewelry';
 import AboutAurelia from '../components/AboutAurelia';
@@ -34,6 +35,7 @@ const App = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5 }}
         >
+          <Header />
           <Hero />
           <FeaturedJewelry />
           <AboutAurelia />
